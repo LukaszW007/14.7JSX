@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    max-width: 1400px;
+}
+
+.contactForm {
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border: solid 5px #000000;
+}
+
+.contactForm input {
+    margin:5px 0;
+}
+
+.contactList {
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    padding-left: 0px;
+}
+
+.contactItem {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border: dotted 1px rgba(0, 0, 0, 0.69);
+}
+
+.contactItem img {
+    width: 5em;
+    height: 5em;
+    margin-right: 10px;
+}
+
+.contactInfo {
+    flex: 2;
+    padding: 0 0 0 5em;
+    line-height: 50%;
+    background: #676767a8;
+}
